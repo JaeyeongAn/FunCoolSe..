@@ -13,7 +13,7 @@ ul{list-style:none;margin:0;padding:0;}
 /*contentswarp*/
 #contentswrap {height: calc(100vh - 150px); /*border: 1px solid black;*/}
 /*departselect*/
-#contentswrap #departselect {display:inline-block; height: calc(100vh - 150px); width: 8vw; border: 1px solid black; }
+#contentswrap #departselect {display:inline-block; position: absolute; height: calc(100vh - 150px);top: 105px; width: 8vw; border: 1px solid black; }
 #contentswrap #departselect ul {}
 #contentswrap #departselect ul li {margin: 10px 0; font-size: small;}
 #contentswrap #departselect .apply {width: 8vw;}

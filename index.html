@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 
 <head>
-    <title> 펀쿨섹 </title>
+    <title> 펀쿨섹 입법에고 </title>
     <meta charset="UTF-8">
     <link rel='stylesheet' href="무제 1.css">
 </head>
 
 <body>
-     <div id="header"> <!-- 제목-->
-        펀쿨섹 입법예고
+     <div id="header"> <!-- 타이틀-->
+        TITLE
     </div> 
     <nav id="menu"> <!--네비바-->
         <ul>
@@ -19,8 +19,19 @@
             
         </ul>
     </nav>
-    <div id=contents> <!--입법예고 출력 화면 -->
-        
+    <div id=contentswrap> <!--입법예고 출력 화면 -->
+        <div id=departselect> <!--정부부처 필터링-->
+            <ul>
+                <li><input type="checkbox" name="국토교통부" value="##"> 국토교통부</li>
+                <li><input type="checkbox" name="환경부" value="##"> 환경부</li>
+                <li><input type="checkbox" name="산업통산자원부" value="##"> 산업통상자원부</li>
+                <li><input type="checkbox" name="행정안전부" value="##"> 행정안전부</li>
+            </ul>
+            <button class="apply">적용</button>
+        </div>    
+        <div id=content> <!-- 입법예고 List -->
+
+        </div>
     </div>
 <footer>
 
